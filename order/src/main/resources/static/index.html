@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<button type="button" onclick="doSubmit()">购买</button>
+</body>
+<script src="jquery-3.4.1.js"></script>
+<script>
+    var foo = {
+        name: "罗伯特",
+        phone: "18500009999",
+        address: "New York",
+        openid: "Robot001",
+        items: JSON.stringify([{
+            productId: "164103465734242707",
+            productQuantity: 1 //购买数量
+        }])
+    };
+
+    function doSubmit() {
+        $.ajax({
+            type: "post",
+            url: "http://localhost:9872/create",
+            data: foo,
+            dataType: "json",
+            success: function (data) {
+                console.log(JSON.stringify(data));
+                alert("success");
+            }
+        });
+    }
+</script>
+</html>

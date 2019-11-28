@@ -1,8 +1,8 @@
 server:
-  port: 9871
+  port: 9872
 spring:
   application:
-    name: product
+    name: order
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
@@ -14,3 +14,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+
+# 配置负载均衡规则
+#PRODUCT:
+#  ribbon:
+#    NFLoadBalancerClassName: com.netflix.loadbalancer.RandomRule

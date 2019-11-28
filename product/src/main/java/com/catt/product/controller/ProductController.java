@@ -2,6 +2,7 @@ package com.catt.product.controller;
 
 import com.catt.product.dataobject.ProductCategory;
 import com.catt.product.dataobject.ProductInfo;
+import com.catt.product.dto.CartDTO;
 import com.catt.product.service.CategoryService;
 import com.catt.product.service.ProductService;
 import com.catt.product.utils.ResultVOUtil;
@@ -10,8 +11,7 @@ import com.catt.product.vo.ProductVO;
 import com.catt.product.vo.ResultVO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,6 +20,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @RestController
+@RequestMapping("/product")
 public class ProductController {
 
     @Autowired
@@ -35,11 +36,26 @@ public class ProductController {
      * 4.构造数据
      * <p>
      * ResultVO - ProductVO - ProductInfoVO
-     * 返回值参考：api.json
      */
     @GetMapping("/list")
     public ResultVO<List> list() {
         return listImpl();
+    }
+
+    /**
+     * 获取商品列表（给订单服务用的）
+     *
+     * @param productIdList
+     * @return
+     */
+    @PostMapping("/listForOrder") // @RequestBody配合@PostMapping使用
+    public List<ProductInfo> listForOrder(@RequestBody List<String> productIdList) {
+        return productService.findByProductIdIn(productIdList);
+    }
+
+    @PostMapping("/decreaseStock")
+    public void decreaseStock(@RequestBody List<CartDTO> cartDTOList) {
+        productService.decreaseStock(cartDTOList);
     }
 
     private ResultVO<List> listImpl() {
