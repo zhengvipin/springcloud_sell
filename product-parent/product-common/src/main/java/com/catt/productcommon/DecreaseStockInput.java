@@ -1,14 +1,14 @@
-package com.catt.product.dto;
+package com.catt.productcommon;
 
 import lombok.Data;
 
 @Data
-public class CartDTO {
+public class DecreaseStockInput {
 
-    public CartDTO() {
+    public DecreaseStockInput() {
     }
 
-    public CartDTO(String productId, Integer productQuantity) {
+    public DecreaseStockInput(String productId, Integer productQuantity) {
         this.productId = productId;
         this.productQuantity = productQuantity;
     }
