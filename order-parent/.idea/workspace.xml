@@ -2,79 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6d879b6-a0d0-4a7d-9bde-2850f95e1f61" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/OrderServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/converter/OrderForm2OrderDTOConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/dataobject/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/dataobject/OrderMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/enums/OrderStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/enums/PayStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/exception/OrderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/form/OrderForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/repository/OrderDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/repository/OrderMasterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/utils/KeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/utils/ResultVOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/vo/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/test/java/com/catt/orderserver/OrderServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/test/java/com/catt/orderserver/repository/OrderDetailRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/test/java/com/catt/orderserver/repository/OrderMasterRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-client/src/main/java/com/catt/productclient/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-common/src/main/java/com/catt/productcommon/DecreaseStockInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-common/src/main/java/com/catt/productcommon/ProductInfoOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/ProductServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/controller/ServerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/dataobject/ProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/dataobject/ProductInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/enums/ProductStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/exception/ProductException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/repository/ProductCategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/repository/ProductInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/utils/ResultVOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/vo/ProductInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/vo/ProductVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/java/com/catt/productserver/vo/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/test/java/com/catt/productserver/ProductServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/test/java/com/catt/productserver/repository/ProductCategoryRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/test/java/com/catt/productserver/repository/ProductInfoRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/test/java/com/catt/productserver/service/CategoryServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-parent/product-server/src/test/java/com/catt/productserver/service/ProductServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/src/main/java/com/catt/product/dto/CartDTO.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config/src/main/java/com/catt/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config/src/test/java/com/catt/config/ConfigApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/EnvController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/static/jquery-3.4.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka/src/main/resources/application-eureka1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka/src/main/resources/application-eureka1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/order-common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,20 +28,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/order-server/src/test/java/com/catt/orderserver/repository/OrderMasterRepositoryTest.java">
+        <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="62">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -108,8 +53,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/pom.xml" />
         <option value="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/OrderServerApplication.java" />
         <option value="$PROJECT_DIR$/order-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/EnvController.java" />
+        <option value="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -163,23 +113,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="order-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -232,30 +171,7 @@
               <item name="order-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderserver" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderserver" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -264,57 +180,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderserver" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575364994318" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575430772042" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../product-parent/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\springcloud_sell\order-parent\order-server\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -328,39 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderMasterRepositoryTest.save">
-    <configuration name="OrderDetailRepositoryTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.catt.orderserver.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.catt.orderserver.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.catt.orderserver.repository.OrderDetailRepositoryTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderMasterRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="order-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.catt.orderserver.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.catt.orderserver.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.catt.orderserver.repository.OrderMasterRepositoryTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="OrderServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.catt.orderserver.OrderServerApplication" />
@@ -368,12 +229,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.OrderMasterRepositoryTest.save" />
-        <item itemvalue="JUnit.OrderDetailRepositoryTest.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -386,6 +241,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575362694589</updated>
       <workItem from="1575362696709" duration="2335000" />
+      <workItem from="1575421695246" duration="7136000" />
     </task>
     <servers />
   </component>
@@ -407,46 +263,46 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2335000" />
+    <option name="totallyTimeSpent" value="10873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="设计器" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32960895" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="调试" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="设计器" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6703911" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.6703911" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.3297587" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="调色板" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32960895" />
+      <window_info anchor="bottom" id="调试" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="调色板" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,18 +315,6 @@
     <entry file="file://$PROJECT_DIR$/order-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/order-server/src/test/java/com/catt/orderserver/repository/OrderDetailRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-48">
@@ -480,9 +324,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/order-server/src/test/java/com/catt/orderserver/OrderServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -494,20 +335,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/OrderServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/ClientController.java" />
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="168">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/test/java/com/catt/orderserver/repository/OrderMasterRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/ClientController.java">
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="1029">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/OrderServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -516,38 +392,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        <state relative-caret-position="316">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/service/OrderService.java">
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/controller/EnvController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/main/java/com/catt/orderserver/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-545">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="336">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order-server/src/test/java/com/catt/orderserver/repository/OrderMasterRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>

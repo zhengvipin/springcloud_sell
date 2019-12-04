@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: 8762
 # 注册中心地址
 spring:
   application:
@@ -9,7 +9,7 @@ eureka:
     service-url:
       # 生产环境要启动多个eureka实例，实现高可用
 #      defaultZone: http://localhost:8762/eureka/,http://localhost:8763/eureka/
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8762/eureka/
     # 是否要在注册中心注册自己
     register-with-eureka: false
     # 是否要在注册中心拉取服务列表

@@ -58,6 +58,11 @@
             <groupId>com.catt</groupId>
             <artifactId>order-common</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-client</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
