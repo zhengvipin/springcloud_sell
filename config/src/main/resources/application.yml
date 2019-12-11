@@ -1,5 +1,5 @@
 server:
-  port: 8700
+  port: 8080
 spring:
   application:
     name: config
@@ -8,10 +8,26 @@ spring:
       server:
         git:
           uri: https://github.com/zhengvipin/config-repo.git
-          username: zhengvipin
-          password: 1004zwpxhzxq0518
-#          basedir: C:\Users\Administrator\Desktop\springcloud_sell\config\basedir
+          username: XXXXXX
+          password: XXXXXX
+          basedir: C:\Users\Administrator\Desktop\springcloud_sell\config\basedir
+
+  rabbitmq:
+    host: 192.168.211.211
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8762/eureka/
+      defaultZone: http://192.168.211.211:8761/eureka/
